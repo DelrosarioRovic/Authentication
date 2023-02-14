@@ -56,7 +56,7 @@ passport.deserializeUser(function(id, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "https://DelrosarioRovic.cyclics.com/auth/google/secrets",
+    callbackURL: "https://whatsyoursecrets.cyclic.app/auth/google/callback",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
   function(accessToken, refreshToken, profile, cb) {
