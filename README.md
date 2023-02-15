@@ -1,5 +1,4 @@
-What's Your Secrets
-<h1>HEllo</h1>
+<h1>What's Your Secrets</h1>
 
 Overview
 What's Your Secrets is a web application that allows users to anonymously share their secrets with the world. Users can submit their secrets and view secrets submitted by others.
